@@ -4,7 +4,9 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
   font-family: "Outfit", sans-serif;
+  font-size: 1rem;
 }
+
 
 .top-container {
   display: flex;
@@ -38,6 +40,7 @@ body {
   height: 100%;
   width: auto;
   background-color: rgba(176, 155, 113, 1);
+  
 }
 
 ul {
@@ -420,16 +423,8 @@ span {
   font-size: 36px;
 }
 
-.top-shop-container h3::before,
-h3::after {
-  width: 50%;
-  content: "";
-  display: inline-block;
-  height: 1px;
-  position: relative;
-  vertical-align: middle;
-  background-color: black;
-}
+
+
 
 .top-text-shop h3:before {
   right: 0.5em;
@@ -539,3 +534,4 @@ td {
 .footer-left2 img {
   margin-left: 20px;
 }
+
